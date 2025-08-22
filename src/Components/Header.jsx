@@ -16,6 +16,18 @@ export default function Header() {
                 Based in Ottawa-Canada, I’m available for both on-site and remote opportunities, and always ready to take on new challenges.
             </p>
 
+             <div className="mt-4 p-3 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 rounded text-center">
+                🚧 This site is still under construction.<br />
+                <a
+                  href="https://sonsk.github.io/my-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-700 font-semibold"
+                >
+                  See the previous version of the portfolio
+                </a>
+            </div>
+
         {/* Navigation */}
         <nav className="mt-6">
           {/* Dropdown for small screens */}
@@ -32,7 +44,7 @@ export default function Header() {
                   <Link to="/" onClick={() => setMenuOpen(false)}>Accueil</Link>
                 </li>
                 <li className="py-2 hover:bg-gray-100 cursor-pointer">
-                  <Link to="/projets" onClick={() => setMenuOpen(false)}>Projets</Link>
+                  <Link to="/projects" onClick={() => setMenuOpen(false)}>Projets</Link>
                 </li>
                 <li className="py-2 hover:bg-gray-100 cursor-pointer">
                   <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
