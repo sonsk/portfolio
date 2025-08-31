@@ -10,11 +10,11 @@ export default function Header() {
                 STEVE SONFACK KEMDONG
             </h1>
             <p className='pt-5 text-gray-500 font-semi-bold text-2xl md:text-3xl text-center'>FULL-STACK WEB DEVELOPER</p>
-            <p className="pt-5 font-light mx-auto text-justify">
+            {/* <p className="pt-5 font-light mx-auto text-justify">
                 I'm a passionate full-stack web developer focused on building modern, efficient applications tailored to real user needs.
                 Curious, detail-oriented, and always learning, I have a strong interest in web technologies, cloud solutions, artificial intelligence and cybersecurity.
                 Based in Ottawa-Canada, I’m available for both on-site and remote opportunities, and always ready to take on new challenges.
-            </p>
+            </p> */}
 
              <div className="mt-4 p-3 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 rounded text-center">
                 🚧 This site is still under construction.<br />

@@ -10,7 +10,7 @@ export default function InProgress() {
         {inProgress.map((item, idx) => (
           <div key={idx} className="flex flex-col items-center bg-white rounded-lg shadow p-6">
             <img src={item.img} alt={item.name} className="w-20 h-20 object-contain mb-4" />
-            <h3 className="font-semibold text-xl mb-2">{item.name}</h3>
+            <h3 className="font-semibold text-xl mb-2 text-center">{item.name}</h3>
             <p className="text-gray-500 text-center">{item.desc}</p>
             {item.url && item.url !== "#" && (
               <a

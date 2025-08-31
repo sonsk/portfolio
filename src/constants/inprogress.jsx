@@ -1,8 +1,8 @@
 export const inProgress = [
   {
-    name: "Google Cybersecurity Professional Certificate (Udemy)",
+    name: "Google Cybersecurity Professional Certificate (Coursera)",
     img: "/images/google-cybersecurity.png",
-    desc: "Certification Udemy en cybersécurité proposée par Google.",
+    desc: "Certification Coursera en cybersécurité proposée par Google.",
     url: "https://www.udemy.com/certificate/UC-XXXXXXXX", // Remplace par ton lien si tu veux
   },
   {
@@ -12,7 +12,7 @@ export const inProgress = [
     url: "#", // Mets le lien de la formation si disponible
   },
   {
-    name: "Sortation Associate chez Amazon",
+    name: "Sortation Associate chez Amazon Delivery Center",
     img: "/images/amazon-warehouse.png",
     desc: "Employé logistique dans un entrepôt Amazon.",
     url: "#", // Mets un lien si tu veux, sinon laisse "#"

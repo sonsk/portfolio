@@ -10,7 +10,7 @@ export const certifications = [
     url: 'https://www.credential.net/sample-google-cloud',
   },
   {
-    name: 'Microsoft Azure Fundamentals',
+    name: 'Google cybersecurity professional certificate',
     img: '/images/azure-cert.png',
     url: 'https://www.credly.com/badges/sample-azure-cert',
   },

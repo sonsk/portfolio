@@ -4,7 +4,7 @@ import Header from './Components/Header'
 import Home from './Components/Home'
 import Projects from './Components/Projects'
 import './App.css'
-import Page from './Components/Page'
+import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Certifications from './Components/Certifications'
 import Experiences from './Components/Experiences'
@@ -28,6 +28,7 @@ function App() {
             <Route path="/in-progress" element={<InProgress/>} />
             <Route path="/techs" element={<Techs />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
         </div>
         <Footer />
