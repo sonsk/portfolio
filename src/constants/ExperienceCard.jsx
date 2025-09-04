@@ -20,7 +20,15 @@ export default function ExperienceCard({ role, company, period, description, ind
       <span className="text-gray-500 text-sm">
         {company} | {period}
       </span>
-      <p className="mt-2 text-gray-600">{description}</p>
+      {description &&
+       description.length > 0 && (
+        <ul className="list-disc list-inside mt-2 text-gray-600">
+          {description.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      )}
+      
     </motion.div>
   );
 }

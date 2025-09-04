@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import ProjectCard from "../constants/ProjectCard";
 import { motion } from "framer-motion";
-import { projects } from "../constants/projects";
-
+import SaasCard from "../constants/SaasCard";
+import { Layers } from "lucide-react";
+import { saasList } from "../constants/saasList";
 import GenericModal from "../constants/GenericModal";
 
-export default function Projects() {
-  const [selectedProject, setSelectedProject] = useState(null);
+export default function SaaS() {
+  const [selectedSaaS, setSelectedSaaS] = useState(null);
 
   return (
     <div className="max-w-6xl mx-auto p-6">
@@ -16,7 +16,7 @@ export default function Projects() {
         transition={{ duration: 0.6 }}
         className="text-4xl font-bold mb-4 text-center"
       >
-        💻 Mes Projets
+        🖥️ Mes SaaS
       </motion.h2>
 
       <motion.p
@@ -25,23 +25,16 @@ export default function Projects() {
         transition={{ delay: 0.3, duration: 0.6 }}
         className="text-gray-600 mb-10 text-center"
       >
-        Voici une sélection de mes réalisations en développement web et applications.
+        Découvrez mes applications SaaS développées pour simplifier la vie quotidienne ou professionnelle.
       </motion.p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map((project, index) => (
-          <div key={index} onClick={() => setSelectedProject(project)}>
-            <ProjectCard index={index} {...project} />
-          </div>
+        {saasList.map((saas, index) => (
+          <SaasCard key={index} saas={saas} index={index} onSelect={setSelectedSaaS} />
         ))}
       </div>
 
-      {/* Modal */}
-      <GenericModal
-        item={selectedProject}
-        isOpen={!!selectedProject}
-        onClose={() => setSelectedProject(null)}
-      />
+      <GenericModal item={selectedSaaS} isOpen={!!selectedSaaS} onClose={() => setSelectedSaaS(null)} />
     </div>
   );
 }

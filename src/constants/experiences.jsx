@@ -43,43 +43,42 @@ export const experiences = [
     ],
     outils: ["WordPress"]
   },
-  {
-    role: "Portfolio Personnel",
-    company: "SKS",
-    period: "Août 2023",
-    description: [
-      "Développement d’un portfolio interactif avec ReactJs et TailwindCss."
-    ],
-    outils: ["ReactJs", "TailwindCss"]
-  },
-  {
-    role: "Projet fin d'étude",
-    company: "Sancfis",
-    period: "Avril - Juillet 2023",
-    description: [
-      "Développement du backend en PHP pour gestion de projets.",
-      "Collaboration en équipe et génération de rapports visuels avec ChartJs."
-    ],
-    outils: ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap", "Figma", "Trello", "ChartJs"]
-  },
-  {
-    role: "Projet Personnel",
-    company: "GELOC",
-    period: "N/A",
-    description: [
-      "Application de gestion de location avec suivi des paiements.",
-      "Mise en place d’un chat intégré pour interaction locataire-bailleur."
-    ],
-    outils: ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap"]
-  },
+  // {
+  //   role: "Portfolio Personnel",
+  //   company: "SKS",
+  //   period: "Août 2023",
+  //   description: [
+  //     "Développement d’un portfolio interactif avec ReactJs et TailwindCss."
+  //   ],
+  //   outils: ["ReactJs", "TailwindCss"]
+  // },
+  // {
+  //   role: "Projet fin d'étude",
+  //   company: "Sancfis",
+  //   period: "Avril - Juillet 2023",
+  //   description: [
+  //     "Développement du backend en PHP pour gestion de projets.",
+  //     "Collaboration en équipe et génération de rapports visuels avec ChartJs."
+  //   ],
+  //   outils: ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap", "Figma", "Trello", "ChartJs"]
+  // },
+  // {
+  //   role: "Projet Personnel",
+  //   company: "GELOC",
+  //   period: "N/A",
+  //   description: [
+  //     "Application de gestion de location avec suivi des paiements.",
+  //     "Mise en place d’un chat intégré pour interaction locataire-bailleur."
+  //   ],
+  //   outils: ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap"]
+  // },
   {
     role: "Freelance",
-    company: "Sweet by Kjohn's",
+    company: "Turing",
     period: "Février 2022",
     description: [
-      "Réalisation d'un site e-commerce responsive avec gestion de parfums et tailles d’articles.",
-      "Interface d'administration conviviale et galerie d'images."
+      
     ],
-    outils: ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap"]
+    outils: []
   }
 ];

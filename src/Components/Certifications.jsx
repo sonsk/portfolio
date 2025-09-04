@@ -12,7 +12,7 @@ export default function Certifications() {
         {certifications.map((cert, idx) => (
           <div key={idx} className="flex flex-col items-center bg-white rounded-lg shadow p-6">
             <img src={cert.img} alt={cert.name} className="w-20 h-20 object-contain mb-4" />
-            <h3 className="font-semibold text-xl mb-2">{cert.name}</h3>
+            <h3 className="font-semibold text-xl text-center mb-2">{cert.name}</h3>
             <a
               href={cert.url}
               target="_blank"

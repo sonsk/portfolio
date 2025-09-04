@@ -11,6 +11,7 @@ import Experiences from './Components/Experiences'
 import InProgress from './Components/InProgress'
 import Techs from './Components/Techs'
 import About from './Components/About'
+import Saas from './Components/Saas'
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
             <Route path="/techs" element={<Techs />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact/>} />
+            <Route path="*" element={<div className='text-center text-2xl font-bold'>404 - Page Not Found</div>} />
+            <Route path="/saas" element={<Saas/>} />
           </Routes>
         </div>
         <Footer />

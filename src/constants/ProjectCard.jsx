@@ -15,8 +15,8 @@ export default function ProjectCard({ title, description, image, techs, demoLink
         className="w-full h-64 bg-cover bg-center"
         style={{ backgroundImage: `url(${image})` }}
       >
-        <div className="w-full h-full bg-black/40 flex flex-col justify-end p-6 transition-all group hover:bg-black/30">
-          <h3 className="text-2xl font-bold mb-2">{title}</h3>
+        <div className="w-full h-full bg-black/60 flex flex-col justify-end p-6 transition-all group hover:bg-black/30">
+          <h3 className="text-xl font-bold mb-2">{title}</h3>
          {/* <p className="text-gray-200 text-sm mb-4 line-clamp-3">{description}</p> */}
 
           <div className="flex flex-wrap gap-2 mb-4">
