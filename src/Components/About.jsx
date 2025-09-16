@@ -20,7 +20,7 @@ export default function About() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="text-gray-600 leading-relaxed text-lg text-justify"
+        className="text-gray-600 leading-relaxed text-lg text-left"
       >
         I'm a passionate <span className="font-semibold text-blue-600">full-stack web developer </span> 
         focused on building modern, efficient applications tailored to real user needs.
