@@ -2,17 +2,17 @@ export const certifications = [
   {
     name: 'AWS Educate Introduction to Cloud 101',
     img: '/images/aws-cloud101-cert.png',
-    url: 'https://www.certmetrics.com/amazon/public/verification.aspx',
+    url: '',
   },
   {
     name: 'Postman API Fundamentals Student Expert certification',
     img: '/images/postman-cert.png',
-    url: 'https://www.credential.net/sample-google-cloud',
+    url: '',
   },
   {
     name: 'Google cybersecurity professional certificate',
-    img: '/images/azure-cert.png',
-    url: 'https://www.credly.com/badges/sample-azure-cert',
+    img: '/images/google.png',
+    url: '',
   },
   // Ajoute d’autres certifications ici...
 ]

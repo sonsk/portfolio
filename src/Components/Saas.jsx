@@ -25,7 +25,7 @@ export default function SaaS() {
         transition={{ delay: 0.3, duration: 0.6 }}
         className="text-gray-600 mb-10 text-center"
       >
-        Découvrez mes applications SaaS développées pour simplifier la vie quotidienne ou professionnelle.
+        Découvrez mes applications SaaS!
       </motion.p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
