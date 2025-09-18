@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Globe, Cpu, Shield, Sparkles } from "lucide-react";
+import { useTranslation, Trans } from "react-i18next";
+
 
 export default function About() {
+  const { t }= useTranslation();
   return (
     <section className="max-w-4xl mx-auto px-6 py-12">
       {/* Titre animé */}
@@ -12,7 +15,7 @@ export default function About() {
         transition={{ duration: 0.6 }}
         className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-6"
       >
-        About Me
+      {t('About.About')}
       </motion.h2>
 
       {/* Texte animé */}
@@ -22,17 +25,19 @@ export default function About() {
         transition={{ duration: 0.8, delay: 0.2 }}
         className="text-gray-600 leading-relaxed text-lg text-left"
       >
-        I'm a passionate <span className="font-semibold text-blue-600">full-stack web developer </span> 
-        focused on building modern, efficient applications tailored to real user needs.
-        Curious, detail-oriented, and always learning, I have a strong interest in{" "}
-        <span className="font-semibold">web technologies</span>,{" "}
-        <span className="font-semibold">cloud solutions</span>,{" "}
-        <span className="font-semibold">artificial intelligence</span>, and{" "}
-        <span className="font-semibold">cybersecurity</span>. 
-        <br /> <br />
-        Based in <span className="font-semibold text-blue-600">Ottawa, Canada</span>, 
-        I’m available for both on-site and remote opportunities, 
-        and always ready to take on new challenges 🚀.
+        
+       <Trans
+          i18nKey="About.Description"
+          components={[
+            <br />, // 0
+            <span className="font-semibold text-blue-600" />, // 1
+            <span className="font-semibold" />, // 2
+            <span className="font-semibold" />, // 3
+            <span className="font-semibold" />, // 4
+            <span className="font-semibold" />, // 5
+            <span className="font-semibold text-blue-600" /> // 6
+          ]}
+        />
       </motion.p>
 
       {/* Icônes illustratives */}

@@ -1,75 +1,75 @@
 // src/constants/techs.js
-export const techs = [
+export const techs = (t) => [
   {
-    name: 'React',
-    img: '/images/react.png',
-    desc: 'Bibliothèque JavaScript pour construire des interfaces utilisateur modernes.',
-    tag: 'frontend'
-  },
-  {
-    name: 'Php',
-    img: '/images/php.png',
-    desc: 'Langage de script côté serveur principalement utilisé pour le développement web.',
-    tag: 'backend'
+    name: "React",
+    img: "/images/react.png",
+    desc: t("Techs.React", "JavaScript library for building modern user interfaces."),
+    tag: "frontend"
   },
   {
-    name: 'Tailwind CSS',
-    img: '/images/tailwind.png',
-    desc: 'Framework CSS utilitaire pour un design rapide et réactif.',
-    tag: 'frontend'
+    name: "Php",
+    img: "/images/php.png",
+    desc: t("Techs.Php", "Server-side scripting language mainly used for web development."),
+    tag: "backend"
   },
   {
-    name: 'Docker',
-    img: '/images/docker.png',
-    desc: 'Plateforme de conteneurisation permettant de déployer et gérer des applications dans des environnements isolés.',
-    tag: 'devops'
+    name: "Tailwind CSS",
+    img: "/images/tailwind.png",
+    desc: t("Techs.Tailwind", "Utility-first CSS framework for rapid and responsive design."),
+    tag: "frontend"
   },
   {
-    name: 'Azure DevOps',
-    img: '/images/azure.png',
-    desc: 'Suite d’outils Microsoft pour la gestion du cycle de vie des applications, l’intégration continue et le déploiement.',
-    tag: 'devops'
+    name: "Docker",
+    img: "/images/docker.png",
+    desc: t("Techs.Docker", "Containerization platform for deploying and managing applications in isolated environments."),
+    tag: "devops"
   },
   {
-    name: 'ASP.NET Core',
-    img: '/images/dotnet.png',
-    desc: 'Framework open-source de Microsoft pour développer des applications web modernes et performantes.',
+    name: "Azure DevOps",
+    img: "/images/azure.png",
+    desc: t("Techs.Azure", "Microsoft suite for application lifecycle management, CI/CD, and deployment."),
+    tag: "devops"
   },
   {
-    name: 'MySQL',
-    img: '/images/mysql.png',
-    desc: 'Système de gestion de base de données relationnelle open-source très utilisé.',
-    tag: 'database'
+    name: "ASP.NET Core",
+    img: "/images/dotnet.png",
+    desc: t("Techs.Dotnet", "Open-source framework by Microsoft for building modern and high-performance web applications."),
+    tag: "backend"
   },
   {
-    name: 'Git',
-    img: '/images/git.png',
-    desc: 'Système de contrôle de version distribué pour gérer le code source et la collaboration.',
-    tag: 'devops'
+    name: "MySQL",
+    img: "/images/mysql.png",
+    desc: t("Techs.MySQL", "Popular open-source relational database management system."),
+    tag: "database"
   },
   {
-    name: 'Wordpress',
-    img: '/images/wordpress.png',
-    desc: 'Système de gestion de contenu (CMS) open-source pour créer et gérer des sites web.',
-    tag: 'cms'
+    name: "Git",
+    img: "/images/git.png",
+    desc: t("Techs.Git", "Distributed version control system for source code management and collaboration."),
+    tag: "devops"
   },
   {
-    name: 'postman',
-    img: '/images/postman.png',
-    desc: 'Outil collaboratif pour tester, documenter et automatiser les API.',
-    tag: 'devops'
+    name: "Wordpress",
+    img: "/images/wordpress.png",
+    desc: t("Techs.Wordpress", "Open-source content management system (CMS) for creating and managing websites."),
+    tag: "cms"
   },
   {
-    name: 'laravel',
-    img: '/images/laravel.png',
-    desc: 'Framework PHP moderne pour développer des applications web robustes et sécurisées.',
-    tag: 'backend'
+    name: "Postman",
+    img: "/images/postman.png",
+    desc: t("Techs.Postman", "Collaborative tool for testing, documenting, and automating APIs."),
+    tag: "devops"
   },
-   {
-    name: 'Figma',
-    img: '/images/figma.png',
-    desc: 'Outil de design collaboratif pour la création d’interfaces utilisateur et de prototypes interactifs.',
-    tag: 'design'
+  {
+    name: "Laravel",
+    img: "/images/laravel.png",
+    desc: t("Techs.Laravel", "Modern PHP framework for building robust and secure web applications."),
+    tag: "backend"
   },
-  // Ajoute d’autres technologies ici...
+  {
+    name: "Figma",
+    img: "/images/figma.png",
+    desc: t("Techs.Figma", "Collaborative design tool for creating user interfaces and interactive prototypes."),
+    tag: "design"
+  }
 ];

@@ -1,10 +1,14 @@
 import React from 'react'
-import { techs } from '../constants/techs'
+import { useTranslation } from "react-i18next";
+import { techs as getTechs } from '../constants/techs'
 
 export default function Techs() {
+  const { t } = useTranslation();
+  const techs = getTechs(t);
+
   return (
     <div className='flex flex-col items-center min-h-screen'>
-      <h2 className='font-bold text-4xl mb-8'>All technologies I use</h2>
+      <h2 className='font-bold text-4xl mb-8'>{t("Techs.Title", "All technologies I use")}</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-4xl px-4">
         {techs.map((tech, idx) => (
           <div key={idx} className="flex flex-col items-center bg-white rounded-lg shadow p-6">

@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import ProjectCard from "../constants/ProjectCard";
 import { motion } from "framer-motion";
 import { projects } from "../constants/projects";
-
 import GenericModal from "../constants/GenericModal";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
+  const { t } = useTranslation();
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
@@ -16,7 +17,7 @@ export default function Projects() {
         transition={{ duration: 0.6 }}
         className="text-4xl font-bold mb-4 text-center"
       >
-        💻 Mes Projets
+        💻 {t("Projects.Title")}
       </motion.h2>
 
       <motion.p
@@ -25,7 +26,10 @@ export default function Projects() {
         transition={{ delay: 0.3, duration: 0.6 }}
         className="text-gray-600 mb-10 text-center"
       >
-        Voici une sélection de mes réalisations en développement web et applications.
+        {/* {t(
+          "Projects.Intro",
+          "Voici une sélection de mes réalisations en développement web et applications."
+        )} */}
       </motion.p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

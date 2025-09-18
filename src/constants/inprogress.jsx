@@ -1,20 +1,22 @@
-export const inProgress = [
+import { useTranslation } from "react-i18next";
+
+export const inProgress = (t) => [
   {
-    name: "Google Cybersecurity Professional Certificate (Coursera)",
+    name: t("InProgress.Coursera"),
     img: "/images/google.png",
-    desc: "Certification Coursera en cybersécurité proposée par Google.",
-    url: "", 
+    desc: t("InProgress.CourseraDesc"),
+    url: "",
   },
   {
-    name: "DESS en Cybersécurité",
+    name: t("InProgress.DESS"),
     img: "/images/uqo.png",
-    desc: "Diplôme d’études supérieures spécialisées en cybersécurité à l'université du québec en outaouais.",
-    url: "#", 
+    desc: t("InProgress.DESSDesc"),
+    url: "#",
   },
   {
-    name: "Sortation Associate chez Amazon Delivery Center",
+    name: t("InProgress.Amazon"),
     img: "/images/amazon.png",
-    desc: "Employé logistique dans un entrepôt Amazon.",
-    url: "#", // Mets un lien si tu veux, sinon laisse "#"
+    desc: t("InProgress.AmazonDesc"),
+    url: "#",
   },
-]
+];

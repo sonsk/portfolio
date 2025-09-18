@@ -1,0 +1,74 @@
+{
+    "About":{
+        "About": "About",
+        "Description": "I am a <1>passionate full-stack web developer</1>, specialized in building modern and efficient applications tailored to real user needs. Curious, detail-oriented, and always learning, I have a strong interest in <2>web technologies</2>, <3>cloud solutions</3>, <4>artificial intelligence</4>, and <5>cybersecurity</5>.<0/><0/>Based in <6>Ottawa, Canada</6>, I am available for both on-site and remote opportunities, and always ready to take on new challenges 🚀."
+    },
+    "Nav": {
+        "Accueil": "Home",
+        "Projets": "Projects",
+        "Saas": "SaaS",
+        "Contact": "Contact",
+        "Certifications": "Certifications",
+        "InProgress": "In Progress",
+        "Techs": "Techs",
+        "Experience": "Experience"
+    },
+    "Home": {
+        "Welcome": "Hi, I'm Steve",
+        "Intro": "Discover my projects, skills, and experiences."
+    },
+    "Projects": {
+        "Title": "My Projects",
+        "NoProjects": "No projects at the moment."
+    },
+    "Certifications": {
+        "Title": "My certifications",
+        "Verify": "Verify authenticity"
+    },
+        "Techs": {
+    "Title": "All technologies I use",
+    "React": "JavaScript library for building modern user interfaces.",
+    "Php": "Server-side scripting language mainly used for web development.",
+    "Tailwind": "Utility-first CSS framework for rapid and responsive design.",
+    "Docker": "Containerization platform for deploying and managing applications in isolated environments.",
+    "Azure": "Microsoft suite for application lifecycle management, CI/CD, and deployment.",
+    "Dotnet": "Open-source framework by Microsoft for building modern and high-performance web applications.",
+    "MySQL": "Popular open-source relational database management system.",
+    "Git": "Distributed version control system for source code management and collaboration.",
+    "Wordpress": "Open-source content management system (CMS) for creating and managing websites.",
+    "Postman": "Collaborative tool for testing, documenting, and automating APIs.",
+    "Laravel": "Modern PHP framework for building robust and secure web applications.",
+    "Figma": "Collaborative design tool for creating user interfaces and interactive prototypes."
+    },
+    "InProgress": {
+        "Title": "In progress",
+        "Coursera": "Google Cybersecurity Professional Certificate (Coursera)",
+        "CourseraDesc": "Coursera certification in cybersecurity offered by Google.",
+        "DESS": "DESS in Cybersecurity",
+        "DESSDesc": "Graduate diploma in cybersecurity at Université du Québec en Outaouais.",
+        "Amazon": "Sortation Associate at Amazon Delivery Center",
+        "AmazonDesc": "Logistics employee at an Amazon warehouse."
+    },
+    "Contact": {
+        "Title": "Let's get in touch",
+        "Text": "Do you have a project, an opportunity, or just want to chat? I am always open to new collaborations.",
+        "Email": "Email",
+        "Phone": "Phone",
+        "LinkedIn": "My LinkedIn profile",
+        "Github": "My Github profile"
+    },
+    "Saas": {
+        "Title": "My SaaS",
+        "NoSaas": "No SaaS for now."
+    },
+    "Footer": {
+        "Copyright": "All rights reserved."
+    },
+    "Construction": {
+        "Message": "🚧 This site is still under construction.",
+        "OldVersion": "See the previous version of the portfolio"
+    },
+    "404": {
+        "NotFound": "404 - Page Not Found"
+    }
+}

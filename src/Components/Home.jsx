@@ -1,16 +1,19 @@
 import { motion } from "framer-motion";
 import { User, Code, Folder, Briefcase, BadgeCheck, Clock, Layers } from "lucide-react";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
+
   const items = [
-    { to: "/about", icon: <User size={40} />, label: "About", color: "from-green-400 to-emerald-600" },
-    { to: "/techs", icon: <Code size={40} />, label: "Techs", color: "from-red-400 to-pink-600" },
-    { to: "/projects", icon: <Folder size={40} />, label: "Projects", color: "from-purple-400 to-indigo-600" },
-    { to: "/experiences", icon: <Briefcase size={40} />, label: "Experience", color: "from-blue-400 to-cyan-600" },
-    { to: "/certifications", icon: <BadgeCheck size={40} />, label: "Certifications", color: "from-yellow-400 to-orange-600" },
-    { to: "/in-progress", icon: <Clock size={40} />, label: "In Progress", color: "from-gray-400 to-gray-600" },
-    { to: "/saas", icon: <Layers size={40} />, label: "SaaS", color: "from-purple-400 to-pink-600" },
+    { to: "/about", icon: <User size={40} />, label: t("About.About"), color: "from-green-400 to-emerald-600" },
+    { to: "/techs", icon: <Code size={40} />, label: t("Nav.Techs"), color: "from-red-400 to-pink-600" },
+    { to: "/projects", icon: <Folder size={40} />, label: t("Nav.Projets"), color: "from-purple-400 to-indigo-600" },
+    { to: "/experiences", icon: <Briefcase size={40} />, label: t("Nav.Experience"), color: "from-blue-400 to-cyan-600" },
+    { to: "/certifications", icon: <BadgeCheck size={40} />, label: t("Nav.Certifications"), color: "from-yellow-400 to-orange-600" },
+    { to: "/in-progress", icon: <Clock size={40} />, label: t("Nav.InProgress"), color: "from-gray-400 to-gray-600" },
+    { to: "/saas", icon: <Layers size={40} />, label: t("Nav.Saas"), color: "from-purple-400 to-pink-600" },
   ];
 
   return (
@@ -21,8 +24,8 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-12"
       >
-        <h1 className="text-4xl font-bold mb-2">👋 Hi, I'm Steve</h1>
-        <p className="text-lg text-gray-600">Full-Stack Developer | Cybersecurity Enthusiast</p>
+        <h1 className="text-4xl font-bold mb-2">👋{t("Home.Welcome")}</h1>
+        <p className="text-lg text-gray-600">{t("Home.Intro")}</p>
       </motion.div>
 
       {/* Navigation Grid */}

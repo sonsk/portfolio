@@ -1,0 +1,74 @@
+{
+    "About":{
+        "About": "À propos",
+        "Description": "Je suis un <1>développeur web full-stack passionné</1>, spécialisé dans la création d'applications modernes et efficaces, adaptées aux besoins réels des utilisateurs. Curieux, rigoureux et toujours en apprentissage, j'ai un fort intérêt pour les <2>technologies web</2>, les <3>solutions cloud</3>, l'<4>intelligence artificielle</4> et la <5>cybersécurité</5>.<0/><0/>Basé à <6>Ottawa, Canada</6>, je suis disponible pour des opportunités en présentiel ou à distance, et toujours prêt à relever de nouveaux défis 🚀."
+    },
+    "Nav": {
+        "Accueil": "Accueil",
+        "Projets": "Projets",
+        "Saas": "SaaS",
+        "Contact": "Contact",
+        "Certifications": "Certifications",
+        "InProgress": "En cours",
+        "Techs": "Technos",
+        "Experience": "Expérience"
+    },
+    "Home": {
+        "Welcome": "Salut, je suis Steve",
+        "Intro": "Découvrez mes projets, compétences et expériences."
+    },
+    "Projects": {
+        "Title": "Mes projets",
+        "NoProjects": "Aucun projet pour le moment."
+    },
+    "Certifications": {
+        "Title": "Mes certifications",
+        "Verify": "Vérifier l’authenticité"
+    },
+    "Techs": {
+        "Title": "Toutes les technologies que j'utilise",
+        "React": "Bibliothèque JavaScript pour construire des interfaces utilisateur modernes.",
+        "Php": "Langage de script côté serveur principalement utilisé pour le développement web.",
+        "Tailwind": "Framework CSS utilitaire pour un design rapide et réactif.",
+        "Docker": "Plateforme de conteneurisation permettant de déployer et gérer des applications dans des environnements isolés.",
+        "Azure": "Suite d’outils Microsoft pour la gestion du cycle de vie des applications, l’intégration continue et le déploiement.",
+        "Dotnet": "Framework open-source de Microsoft pour développer des applications web modernes et performantes.",
+        "MySQL": "Système de gestion de base de données relationnelle open-source très utilisé.",
+        "Git": "Système de contrôle de version distribué pour gérer le code source et la collaboration.",
+        "Wordpress": "Système de gestion de contenu (CMS) open-source pour créer et gérer des sites web.",
+        "Postman": "Outil collaboratif pour tester, documenter et automatiser les API.",
+        "Laravel": "Framework PHP moderne pour développer des applications web robustes et sécurisées.",
+        "Figma": "Outil de design collaboratif pour la création d’interfaces utilisateur et de prototypes interactifs."
+        },
+   "InProgress": {
+        "Title": "En cours",
+        "Coursera": "Google Cybersecurity Professional Certificate (Coursera)",
+        "CourseraDesc": "Certification Coursera en cybersécurité proposée par Google.",
+        "DESS": "DESS en Cybersécurité",
+        "DESSDesc": "Diplôme d’études supérieures spécialisées en cybersécurité à l’Université du Québec en Outaouais.",
+        "Amazon": "Sortation Associate au centre de livraison Amazon",
+        "AmazonDesc": "Employé logistique dans un entrepôt Amazon."
+    },
+    "Contact": {
+        "Title": "Restons en contact",
+        "Text": "Tu as un projet, une opportunité ou tu veux simplement discuter ? Je suis toujours ouvert aux nouvelles collaborations.",
+        "Email": "Email",
+        "Phone": "Téléphone",
+        "LinkedIn": "Mon profil LinkedIn",
+        "Github": "Mon profil Github"
+    },
+    "Saas": {
+        "Title": "Mes SaaS",
+        "NoSaas": "Aucun SaaS pour le moment."
+    },
+    "Footer": {
+        "Copyright": "Tous droits réservés."
+    },
+    "Construction": {
+        "Message": "🚧 Ce site est encore en construction.",
+        "OldVersion": "Voir la version précédente du portfolio"
+    },
+    "404": {
+        "NotFound": "404 - Page non trouvée"
+    }
+}

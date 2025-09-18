@@ -1,10 +1,12 @@
 import React from 'react'
 import { certifications } from '../constants/certifications'
+import { useTranslation } from "react-i18next";
 
 export default function Certifications() {
+  const { t } = useTranslation();
   return (
     <div className='flex flex-col items-center min-h-screen'>
-      <h2 className='font-bold text-4xl mb-8'>Mes certifications</h2>
+      <h2 className='font-bold text-4xl mb-8'> {t('Certifications.Title')} </h2>
       {/* <a href="https://www.credly.com/users/steve-sonfack-kemdong" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline mb-4">
         Voir toutes mes certifications sur Credly
       </a> */}

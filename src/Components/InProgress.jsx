@@ -1,11 +1,14 @@
 // Exemple d'utilisation dans InProgress.jsx
 import React from 'react'
-import { inProgress } from '../constants/inprogress'
+import { inProgress as getInProgress } from '../constants/inprogress'
+import { useTranslation } from "react-i18next";
 
 export default function InProgress() {
+    const { t } = useTranslation();
+     const inProgress = getInProgress(t);
   return (
     <div className='flex flex-col items-center min-h-screen'>
-      <h2 className='font-bold text-4xl mb-8'>En cours</h2>
+      <h2 className='font-bold text-4xl mb-8'> {t('InProgress.Title')} </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-4xl px-4">
         {inProgress.map((item, idx) => (
           <div key={idx} className="flex flex-col items-center bg-white rounded-lg shadow p-6">

@@ -1,8 +1,23 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
 export default function Header() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Tableau de navigation pour éviter la répétition
+  const navItems = [
+    { to: "/", label: t('Nav.Accueil') },
+    { to: "/projects", label: t('Nav.Projets') },
+    { to: "/saas", label: t('Nav.Saas') },
+    { to: "/contact", label: t('Nav.Contact') },
+  ];
 
   return (
     <header className="w-full bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
@@ -17,14 +32,14 @@ export default function Header() {
 
         {/* Message construction */}
         <div className="mt-4 px-4 py-3 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-700 rounded-lg text-center shadow-sm">
-          🚧 This site is still under construction. <br />
+          {t('Construction.Message')} <br />
           <a
             href="https://sonsk.github.io/my-portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="underline text-blue-600 font-semibold hover:text-blue-800"
           >
-            See the previous version of the portfolio
+            {t('Construction.OldVersion')}
           </a>
         </div>
 
@@ -40,12 +55,7 @@ export default function Header() {
             </button>
             {menuOpen && (
               <ul className="mt-3 bg-white border rounded-lg shadow w-40 text-center animate-fadeIn">
-                {[
-                  { to: "/", label: "Accueil" },
-                  { to: "/projects", label: "Projets" },
-                  { to: "/saas", label: "Saas" },
-                  { to: "/contact", label: "Contact" },
-                ].map((item, i) => (
+                {navItems.map((item, i) => (
                   <li
                     key={i}
                     className="py-2 hover:bg-gray-100 transition cursor-pointer"
@@ -61,12 +71,7 @@ export default function Header() {
 
           {/* Desktop */}
           <ul className="hidden md:flex justify-center space-x-10 text-lg mt-4">
-            {[
-              { to: "/", label: "Accueil" },
-              { to: "/projects", label: "Projets" },
-              { to: "/saas", label: "Saas" },
-              { to: "/contact", label: "Contact" },
-            ].map((item, i) => (
+            {navItems.map((item, i) => (
               <li key={i} className="relative group cursor-pointer">
                 <Link to={item.to} className="text-gray-700 hover:text-blue-600 transition">
                   {item.label}
@@ -76,6 +81,21 @@ export default function Header() {
               </li>
             ))}
           </ul>
+          {/* Traduction */}
+          <div className="flex justify-center md:justify-end mt-4 md:mt-0 space-x-2">
+            <button
+              className="px-4 py-2 border border-[#ea7726] rounded-lg text-[#ea7726] font-semibold hover:bg-[#ea7726] hover:text-white transition"
+              onClick={() => changeLanguage('fr')}
+            >
+              Fr
+            </button>
+            <button
+              className="px-4 py-2 border border-[#ea7726] rounded-lg text-[#ea7726] font-semibold hover:bg-[#ea7726] hover:text-white transition"
+              onClick={() => changeLanguage('en')}
+            >
+              En
+            </button>
+          </div>
         </nav>
       </div>
     </header>

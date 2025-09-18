@@ -4,8 +4,10 @@ import SaasCard from "../constants/SaasCard";
 import { Layers } from "lucide-react";
 import { saasList } from "../constants/saasList";
 import GenericModal from "../constants/GenericModal";
+import { useTranslation } from "react-i18next";
 
 export default function SaaS() {
+  const { t } = useTranslation();
   const [selectedSaaS, setSelectedSaaS] = useState(null);
 
   return (
@@ -16,7 +18,7 @@ export default function SaaS() {
         transition={{ duration: 0.6 }}
         className="text-4xl font-bold mb-4 text-center"
       >
-        🖥️ Mes SaaS
+        🖥️ {t("Saas.Title")}
       </motion.h2>
 
       <motion.p
@@ -25,7 +27,7 @@ export default function SaaS() {
         transition={{ delay: 0.3, duration: 0.6 }}
         className="text-gray-600 mb-10 text-center"
       >
-        Découvrez mes applications SaaS!
+       
       </motion.p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

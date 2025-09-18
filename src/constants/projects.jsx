@@ -27,13 +27,5 @@ export const projects = [
     githubLink: "https://github.com/sonsk/quçickchoice"
   },
 
-/*   {
-    title: "Birthday Reminder",
-    company: "sonfack steve",
-    image: '/images/laravel.png',
-    description: "compte à rebours pour un anniversaire et fonctionnalités le jour J.",
-    techs: ["ReactJs", "TailwindCss"],
-    demoLink: "https://sonsk.github.io/darelle/",
-    githubLink: "https://github.com/sonsk/darelle"
-  } */
+
 ];
