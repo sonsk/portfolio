@@ -40,6 +40,46 @@
     "Laravel": "Modern PHP framework for building robust and secure web applications.",
     "Figma": "Collaborative design tool for creating user interfaces and interactive prototypes."
     },
+    "Experiences": {
+        "Title": "My Experience",
+    "Warehouse": {
+      "Role": "Warehouse Associate",
+      "Company": "Amazon Delivery Center",
+      "Period": "Oct 2024 - Present",
+      "Desc1": "Receiving, sorting, and preparing packages for delivery.",
+      "Desc2": "Using warehouse management tools to ensure product traceability.",
+      "Desc3": "Strict compliance with safety and quality procedures."
+    },
+    "Orange": {
+      "Role": "Full Stack Web Developer",
+      "Company": "Orange Cameroun",
+      "Period": "May 2024 - Sep 2024",
+      "Desc1": "Development of web applications for the HR department.",
+      "Desc2": "Implementation of full-stack web solutions with PHP, React.js, and Dotnet.",
+      "Desc3": "CI/CD deployment via Azure DevOps and containerization with Docker.",
+      "Desc4": "Production deployment on RedHat OpenShift."
+    },
+    "Accent": {
+      "Role": "Full Stack Web Developer",
+      "Company": "Accent Media",
+      "Period": "Oct 2022 - Apr 2024",
+      "Desc1": "Design and development of web solutions with Laravel and React.js.",
+      "Desc2": "Client needs analysis and performance optimization.",
+      "Desc3": "MySQL database management and Git versioning best practices."
+    },
+    "WP": {
+      "Role": "WordPress Developer",
+      "Company": "Agence Web Solutions",
+      "Period": "Jan 2019 - Sep 2022",
+      "Desc1": "Creation and maintenance of showcase and e-commerce sites with WordPress.",
+      "Desc2": "SEO optimization, content management, and payment solution integration."
+    },
+    "Freelance": {
+      "Role": "Freelance",
+      "Company": "Turing",
+      "Period": "February 2022"
+    }
+  },
     "InProgress": {
         "Title": "In progress",
         "Coursera": "Google Cybersecurity Professional Certificate (Coursera)",

@@ -1,8 +1,11 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import ExperienceCard from "../constants/ExperienceCard";
-import { experiences } from "../constants/experiences";
+import { experiences as getExperiences } from "../constants/experiences";
 
 export default function Experiences() {
+const { t } = useTranslation();
+const experiences = getExperiences(t);
 
   return (
     <div className="max-w-4xl mx-auto p-6">
@@ -13,7 +16,7 @@ export default function Experiences() {
         transition={{ duration: 0.6 }}
         className="text-4xl font-bold mb-8 text-center"
       >
-        🧑‍💻 Mon Parcours
+       {t("Experiences.Title")}
       </motion.h2>
 
       {/* Timeline */}

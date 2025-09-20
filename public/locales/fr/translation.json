@@ -40,6 +40,47 @@
         "Laravel": "Framework PHP moderne pour développer des applications web robustes et sécurisées.",
         "Figma": "Outil de design collaboratif pour la création d’interfaces utilisateur et de prototypes interactifs."
         },
+    
+        "Experiences": {
+        "Title": "Mon Parcours",
+  "Warehouse": {
+    "Role": "Préparateur de commandes",
+    "Company": "Centre de livraison Amazon",
+    "Period": "Oct 2024 - Présent",
+    "Desc1": "Réception, tri et préparation des colis pour la livraison.",
+    "Desc2": "Utilisation d'outils de gestion d'entrepôt pour assurer la traçabilité des produits.",
+    "Desc3": "Respect strict des procédures de sécurité et de qualité."
+  },
+  "Orange": {
+    "Role": "Développeur Web Full Stack",
+    "Company": "Orange Cameroun",
+    "Period": "Mai 2024 - Sep 2024",
+    "Desc1": "Développement d'applications web pour le département RH.",
+    "Desc2": "Implémentation de solutions web full-stack avec PHP, React.js et Dotnet.",
+    "Desc3": "Déploiement CI/CD via Azure DevOps et conteneurisation avec Docker.",
+    "Desc4": "Mise en production sur RedHat OpenShift."
+  },
+  "Accent": {
+    "Role": "Développeur Web Full Stack",
+    "Company": "Accent Media",
+    "Period": "Oct 2022 - Avr 2024",
+    "Desc1": "Conception et développement de solutions web avec Laravel et React.js.",
+    "Desc2": "Analyse des besoins clients et optimisation des performances.",
+    "Desc3": "Gestion de base de données MySQL et bonnes pratiques de versionning Git."
+  },
+  "WP": {
+    "Role": "Développeur WordPress",
+    "Company": "Agence Web Solutions",
+    "Period": "Jan 2019 - Sep 2022",
+    "Desc1": "Création et maintenance de sites vitrines et e-commerce avec WordPress.",
+    "Desc2": "Optimisation SEO, gestion de contenu et intégration de solutions de paiement."
+  },
+  "Freelance": {
+    "Role": "Freelance",
+    "Company": "Turing",
+    "Period": "Février 2022"
+  }
+},
    "InProgress": {
         "Title": "En cours",
         "Coursera": "Google Cybersecurity Professional Certificate (Coursera)",

@@ -1,84 +1,53 @@
-export const experiences = [
+export const experiences = (t) => [
   {
-    role: "Warehouse Associate",
-    company: "Amazon Delivery Center",
-    period: "Oct 2024 - Present",
+    role: t("Experiences.Warehouse.Role", "Warehouse Associate"),
+    company: t("Experiences.Warehouse.Company", "Amazon Delivery Center"),
+    period: t("Experiences.Warehouse.Period", "Oct 2024 - Present"),
     description: [
-      "Réception, tri et préparation des colis pour la livraison.",
-      "Utilisation d'outils de gestion d'entrepôt pour assurer la traçabilité des produits.",
-      "Respect strict des procédures de sécurité et de qualité."
+      t("Experiences.Warehouse.Desc1", "Réception, tri et préparation des colis pour la livraison."),
+      t("Experiences.Warehouse.Desc2", "Utilisation d'outils de gestion d'entrepôt pour assurer la traçabilité des produits."),
+      t("Experiences.Warehouse.Desc3", "Respect strict des procédures de sécurité et de qualité.")
     ],
     outils: []
   },
   {
-    role: "Full Stack Web Developer",
-    company: "Orange Cameroun",
-    period: "May 2024 - Sep 2024",
+    role: t("Experiences.Orange.Role", "Full Stack Web Developer"),
+    company: t("Experiences.Orange.Company", "Orange Cameroun"),
+    period: t("Experiences.Orange.Period", "May 2024 - Sep 2024"),
     description: [
-      "Développement d'applications web pour le département RH.",
-      "Implémentation de solutions web full-stack avec PHP, React.js et Dotnet.",
-      "Déploiement CI/CD via Azure DevOps et conteneurisation avec Docker.",
-      "Mise en production sur RedHat OpenShift."
+      t("Experiences.Orange.Desc1", "Développement d'applications web pour le département RH."),
+      t("Experiences.Orange.Desc2", "Implémentation de solutions web full-stack avec PHP, React.js et Dotnet."),
+      t("Experiences.Orange.Desc3", "Déploiement CI/CD via Azure DevOps et conteneurisation avec Docker."),
+      t("Experiences.Orange.Desc4", "Mise en production sur RedHat OpenShift.")
     ],
     outils: ["ReactJs", "PHP", "Dotnet", "TailwindCss", "Azure DevOps", "Docker"]
   },
   {
-    role: "Full Stack Web Developer",
-    company: "Accent Media",
-    period: "Oct 2022 - Apr 2024",
+    role: t("Experiences.Accent.Role", "Full Stack Web Developer"),
+    company: t("Experiences.Accent.Company", "Accent Media"),
+    period: t("Experiences.Accent.Period", "Oct 2022 - Apr 2024"),
     description: [
-      "Conception et développement de solutions web avec Laravel et React.js.",
-      "Analyse des besoins clients et optimisation des performances.",
-      "Gestion de base de données MySQL et bonnes pratiques de versionning Git."
+      t("Experiences.Accent.Desc1", "Conception et développement de solutions web avec Laravel et React.js."),
+      t("Experiences.Accent.Desc2", "Analyse des besoins clients et optimisation des performances."),
+      t("Experiences.Accent.Desc3", "Gestion de base de données MySQL et bonnes pratiques de versionning Git.")
     ],
     outils: ["ReactJs", "Laravel", "MySQL"]
   },
   {
-    role: "WordPress Developer",
-    company: "Agence Web Solutions",
-    period: "Jan 2019 - Sep 2022",
+    role: t("Experiences.WP.Role", "WordPress Developer"),
+    company: t("Experiences.WP.Company", "Agence Web Solutions"),
+    period: t("Experiences.WP.Period", "Jan 2019 - Sep 2022"),
     description: [
-      "Création et maintenance de sites vitrines et e-commerce avec WordPress.",
-      "Optimisation SEO, gestion de contenu et intégration de solutions de paiement."
+      t("Experiences.WP.Desc1", "Création et maintenance de sites vitrines et e-commerce avec WordPress."),
+      t("Experiences.WP.Desc2", "Optimisation SEO, gestion de contenu et intégration de solutions de paiement.")
     ],
     outils: ["WordPress"]
   },
-  // {
-  //   role: "Portfolio Personnel",
-  //   company: "SKS",
-  //   period: "Août 2023",
-  //   description: [
-  //     "Développement d’un portfolio interactif avec ReactJs et TailwindCss."
-  //   ],
-  //   outils: ["ReactJs", "TailwindCss"]
-  // },
-  // {
-  //   role: "Projet fin d'étude",
-  //   company: "Sancfis",
-  //   period: "Avril - Juillet 2023",
-  //   description: [
-  //     "Développement du backend en PHP pour gestion de projets.",
-  //     "Collaboration en équipe et génération de rapports visuels avec ChartJs."
-  //   ],
-  //   outils: ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap", "Figma", "Trello", "ChartJs"]
-  // },
-  // {
-  //   role: "Projet Personnel",
-  //   company: "GELOC",
-  //   period: "N/A",
-  //   description: [
-  //     "Application de gestion de location avec suivi des paiements.",
-  //     "Mise en place d’un chat intégré pour interaction locataire-bailleur."
-  //   ],
-  //   outils: ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap"]
-  // },
   {
-    role: "Freelance",
-    company: "Turing",
-    period: "Février 2022",
-    description: [
-      
-    ],
+    role: t("Experiences.Freelance.Role", "Freelance"),
+    company: t("Experiences.Freelance.Company", "Turing"),
+    period: t("Experiences.Freelance.Period", "Février 2022"),
+    description: [],
     outils: []
   }
 ];
