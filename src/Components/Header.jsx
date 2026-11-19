@@ -31,7 +31,7 @@ export default function Header() {
         </p>
 
         {/* Message construction */}
-        <div className="mt-4 px-4 py-3 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-700 rounded-lg text-center shadow-sm">
+        {/* <div className="mt-4 px-4 py-3 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-700 rounded-lg text-center shadow-sm">
           {t('Construction.Message')} <br />
           <a
             href="https://sonsk.github.io/my-portfolio"
@@ -41,7 +41,7 @@ export default function Header() {
           >
             {t('Construction.OldVersion')}
           </a>
-        </div>
+        </div> */}
 
         {/* Navigation */}
         <nav className="mt-6 w-full">

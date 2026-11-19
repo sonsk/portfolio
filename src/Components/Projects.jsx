@@ -17,7 +17,7 @@ export default function Projects() {
         transition={{ duration: 0.6 }}
         className="text-4xl font-bold mb-4 text-center"
       >
-        💻 {t("Projects.Title")}
+         {t("Projects.Title")}
       </motion.h2>
 
       <motion.p

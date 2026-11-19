@@ -15,14 +15,17 @@ export default function Certifications() {
           <div key={idx} className="flex flex-col items-center bg-white rounded-lg shadow p-6">
             <img src={cert.img} alt={cert.name} className="w-20 h-20 object-contain mb-4" />
             <h3 className="font-semibold text-xl text-center mb-2">{cert.name}</h3>
-            {/* <a
-              href={cert.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 underline mt-2"
-            >
+            { cert.url && (
+              <a
+                href={cert.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline mt-2"
+              >
               Vérifier l’authenticité
-            </a> */}
+            </a>
+            )}
+
           </div>
         ))}
       </div>
